@@ -1,0 +1,50 @@
+.container {
+    margin: 40px;
+}
+
+.container h1 {
+    font-family: 'Arial';
+    font-size: 40px
+}
+
+.list-item {
+    font-family: 'Arial';
+}
+
+.primaryButton {
+    width: auto;
+    background-color: #1D1E18;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.secondaryButton {
+    width: auto;
+    background-color: white;
+    color: #1D1E18;
+    border: #1D1E18 solid 1px;
+    border-radius: 3px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.primaryButton:hover {
+    background-color: white;
+    border: #1D1E18 solid 1px;
+    border-radius: 4px;
+    color: #1D1E18;
+}
+
+.secondaryButton:hover {
+    background-color: #1D1E18;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
